@@ -7,7 +7,7 @@ import cucumber.api.junit.Cucumber;
 import cucumber.api.testng.AbstractTestNGCucumberTests;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features={"src/test/java/resources/*.feature"},
+@CucumberOptions(features={"src/test/resources/features/*.feature"},
 glue={"stepdefinaction"},
 format = {"html:target/TestResults/html/cucumber-html-report","json:target/TestResults/json/accountHolder_Secondary.json" }
 )
